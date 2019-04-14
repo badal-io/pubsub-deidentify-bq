@@ -22,7 +22,7 @@ Before starting, the following tasks needs to be done for the dataflow pipelines
 - a BigQuery dataset and table must be created to capture any errors during the Dataflow pipeline.
 - If you decide to use a view to hide the PII fields, a different dataset is required for the view since IAM permissions can only be applied at a dataset level.
 - Create a staging location in Google Cloud Storage for the Dataflow pipeline.
-- The DLP template must exist prior to creating the dataflow job.  CryptoHash/FPE template examples are provided here: https://github.com/muvaki/examples/dlp-templates
+- The DLP template must exist prior to creating the dataflow job.  CryptoHash/FPE template examples are provided here: https://github.com/muvaki/dlp-deidentify-poc 
 
 ## Big Query Table Schemas
 
